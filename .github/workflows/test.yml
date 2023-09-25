@@ -1,0 +1,8 @@
+name: thetan-royale server build PROD
+#TODO update PROD
+on:
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "Artifact version (Zip suffix)"
+        required: true
